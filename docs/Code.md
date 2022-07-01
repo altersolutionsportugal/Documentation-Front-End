@@ -13,9 +13,9 @@ Always use the CamelCase pattern for naming your variables and functions and use
 Examples:
 
 ```
-var currentItem // CamelCase
+const currentItem // CamelCase
 
-var CurrentItem // PascalCase
+const CurrentItem // PascalCase
 ```
 
 Note: Always use English to name your functions, components, and variables
@@ -29,12 +29,14 @@ The names of variables and functions must be clear.
 Examples:
 
 ```
-var n = 'John Doe' // Bad name
+const n = 'John Doe' // Bad name
 
-var clientName = 'John Doe' // Good name
+const clientName = 'John Doe' // Good name
 ```
 
 Note that by using clear names, you also make these names easier to find when performing a search, in the above case you may notice that the name **n** is not searchable because many results will be found for this search, since the name **clientName** is more specific and therefore easier to find.
+
+Note: Always use **const** and **let** to declare variables.
 
 <br>
 
@@ -55,7 +57,7 @@ Note that in the example above it was necessary to read the exception message so
 Example:
 
 ```
-var maxPasswordSize = 7
+const maxPasswordSize = 7
 if (password.length() > maxPasswordSize) {
   throw new PasswordException("InvalidPasswordSize");
 }
