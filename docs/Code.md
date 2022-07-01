@@ -18,7 +18,7 @@ const currentItem // CamelCase
 const CurrentItem // PascalCase
 ```
 
-Note: Always use English to name your functions, components, and variables
+**Note:** Always use English to name your functions, components, and variables
 
 <br>
 
@@ -36,7 +36,7 @@ const clientName = 'John Doe' // Good name
 
 Note that by using clear names, you also make these names easier to find when performing a search, in the above case you may notice that the name **n** is not searchable because many results will be found for this search, since the name **clientName** is more specific and therefore easier to find.
 
-Note: Always use **const** and **let** to declare variables.
+**Note:** Always use **const** and **let** to declare variables.
 
 <br>
 
